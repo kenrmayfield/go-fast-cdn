@@ -71,6 +71,8 @@ MacOS: `chmod +x /bin/go-fast-cdn-darwin`<br>
 Globally:<br>
 Linux: `go-fast-cdn-linux`<br>
 Windows:`Start Run go-fast-cdn-windows`<br>
+        `CMD Prompt go-fast-cdn-windows`<br>
+        `PowerShell Prompt go-fast-cdn-windows`<br>
 MacOS: `go-fast-cdn-darwin`<br>
 
 Non Global - Custom Directory:<br> 
