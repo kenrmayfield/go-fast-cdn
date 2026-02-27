@@ -81,6 +81,23 @@ MacOS: `./<PATH>/go-fast-cdn-darwin`<br>
 
 ### Create System Service File for Linux
 
+Create File: `/etc/systemd/system/go-fast-cdn.service`
+
+```
+[Unit]
+Description=Go-Fast CDN
+After=network.target
+
+[Service]
+ExecStart=/<PATH>/<BINARY DIRECOTORY>/go-fast-cdn-linux
+WorkingDirectory=/<PATH>/<BINARY DIRECOTORY>
+Restart=always
+User=your-user
+Group=your-group
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ### Quick Start with Docker
 
