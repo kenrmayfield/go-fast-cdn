@@ -53,7 +53,7 @@ If you do not wish to use this, you can just rename `.example.env` to `.env` and
 ### Run Binary
 
 Linux: `bin/go-fast-cdn-linux`<br>
-Windwos: `bin/go-fast-cdn-windows`<br> 
+Windows: `bin/go-fast-cdn-windows`<br> 
 MacOS: `bin/go-fast-cdn-darwin`<br>
 
 ### Quick Start with Docker
