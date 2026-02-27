@@ -33,7 +33,7 @@ Join the [discord](https://discord.gg/z9uqNtU6yS) to talk to fellow users and co
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
 or `git clone https://github.com/kevinanielsen/go-fast-cdn`
 
-### Move the Source File to a Global Directory or Custom Directory:
+### Move the Source File to a Global Directory or Custom Directory
 Global Directory: 
 <br>Linux: `/usr/local/bin/go-fast-cdn-linux`<br>
 Windows: `\<PATH>\go-fast-cdn-windows` - NOTE: Need to Add Path to Windows Evironment Varbles<br> 
@@ -61,7 +61,7 @@ If you do not wish to use this, you can just rename `.example.env` to `.env` and
 3. Run `make test`
 4. Run `make build`
 
-### Make Executable for Linux and MacOs:<br>
+### Make Executable for Linux and MacOs<br>
 
 Linux: `chmod +x /bin/go-fast-cdn-linux`<br>
 MacOS: `chmod +x /bin/go-fast-cdn-darwin`<br>
