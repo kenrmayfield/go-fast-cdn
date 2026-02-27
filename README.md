@@ -33,22 +33,30 @@ Join the [discord](https://discord.gg/z9uqNtU6yS) to talk to fellow users and co
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
 or `git clone https://github.com/kevinanielsen/go-fast-cdn`
 
-### Add env variables
+### Add ENV Variables
 
 This project uses [dotenv](https://vault.dotenv.org/) and I recommend that you do the same. <br>
 Read more about the usage on their page. <br><br>
+Once you’ve cloned the repo, you need to set up the environment variables.
+
+Copy the .env.example file to a new .env file: `cp .env.example .env`
+
 If you do not wish to use this, you can just rename `.example.env` to `.env` and fill in the fields.
 
-### Building the binary
+### Building the Binary
 
 1. Run `make prep`
 2. Run `make clean`
 3. Run `make test`
 4. Run `make build`
 
-Your binary should now be tested, built, and you can run it with `bin/go-fast-cdn-linux` or `bin/go-fast-cdn-windows` or `bin/go-fast-cdn-darwin`
+### Run Binary
 
-### Quick start with Docker
+Linux: `bin/go-fast-cdn-linux`<br>
+Windwos: `bin/go-fast-cdn-windows`<br> 
+MacOS: `bin/go-fast-cdn-darwin`<br>
+
+### Quick Start with Docker
 
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
 or `git clone https://github.com/kevinanielsen/go-fast-cdn`
