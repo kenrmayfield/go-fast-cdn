@@ -69,9 +69,9 @@ MacOS: `chmod +x /bin/go-fast-cdn-darwin`<br>
 
 ### Run Binary
 Globally:<br>
-Linux: `./usr/local/bin/go-fast-cdn-linux`<br>
+Linux: `go-fast-cdn-linux`<br>
 Windows:`Start Run go-fast-cdn-windows`<br>
-MacOS: `./usr/local/bin/go-fast-cdn-darwin`<br>
+MacOS: `go-fast-cdn-darwin`<br>
 
 Non Global - Custom Directory:<br> 
 Linux: `./<PATH>/go-fast-cdn-linux`<br>
