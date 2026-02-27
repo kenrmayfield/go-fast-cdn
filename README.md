@@ -48,7 +48,7 @@ MacOS: `/usr/local/bin/go-fast-cdn-darwin`<br>
 
 This project uses [dotenv](https://vault.dotenv.org/) and I recommend that you do the same. <br>
 Read more about the usage on their page. <br><br>
-Once you’ve cloned the repo, you need to set up the environment variables.
+Once you’ve cloned the repo, you need to set up the Environment Variables.
 
 Copy the .env.example file to a new .env file: `cp .env.example .env`
 
