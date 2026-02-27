@@ -99,6 +99,10 @@ Group=your-group
 WantedBy=multi-user.target
 ```
 
+### Enable and Start Service:<br>
+`systemctl enable go-fast-cdn`<br>
+`systemctl start go-fast-cdn`<br>
+
 ### Quick Start with Docker
 
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
