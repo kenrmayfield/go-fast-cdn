@@ -79,7 +79,7 @@ Windows: `\<PATH>\go-fast-cdn-windows`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Create a Short Cut to go-fast-cdn-windows.exe`<br>         
 MacOS: `./<PATH>/go-fast-cdn-darwin`<br>
 
-### Create System Service File for Linux
+### Create System Service File for Linux - Start Automatically on System Boot
 
 Create File: `/etc/systemd/system/go-fast-cdn.service`
 
