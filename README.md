@@ -33,6 +33,17 @@ Join the [discord](https://discord.gg/z9uqNtU6yS) to talk to fellow users and co
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
 or `git clone https://github.com/kevinanielsen/go-fast-cdn`
 
+### Move the Source File to a Global Directory or Custom Directory:
+Global Directory: 
+<br>Linux: `/usr/local/bin/go-fast-cdn-linux`<br>
+Windows: `\<PATH>\go-fast-cdn-windows` - NOTE: Need to Add Path to Windows Evironment Varbles<br> 
+MacOS: `/usr/local/bin/go-fast-cdn-darwin`<br>
+
+Custom Directory - Non Global:
+<br>Linux: `/<PATH>/bin/go-fast-cdn-linux`<br>
+Windows: `\<PATH>\go-fast-cdn-windows`<br>
+MacOS: `/usr/local/bin/go-fast-cdn-darwin`<br>
+
 ### Add ENV Variables
 
 This project uses [dotenv](https://vault.dotenv.org/) and I recommend that you do the same. <br>
@@ -50,11 +61,26 @@ If you do not wish to use this, you can just rename `.example.env` to `.env` and
 3. Run `make test`
 4. Run `make build`
 
-### Run Binary
+### Make Executable for Linux and MacOs:<br>
 
-Linux: `bin/go-fast-cdn-linux`<br>
-Windows: `bin/go-fast-cdn-windows`<br> 
-MacOS: `bin/go-fast-cdn-darwin`<br>
+Linux: `chmod +x /bin/go-fast-cdn-linux`<br>
+MacOS: `chmod +x /bin/go-fast-cdn-darwin`<br>
+
+
+### Run Binary
+Globally:<br>
+Linux: `./usr/local/bin/go-fast-cdn-linux`<br>
+Windows:`Start Run go-fast-cdn-windows`<br>
+MacOS: `./usr/local/bin/go-fast-cdn-darwin`<br>
+
+Non Global - Custom Directory:<br> 
+Linux: `./<PATH>/go-fast-cdn-linux`<br>
+Windows: `\<PATH>\go-fast-cdn-windows`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Create a Short Cut to go-fast-cdn-windows.exe`<br>         
+MacOS: `./<PATH>/go-fast-cdn-darwin`<br>
+
+### Create System Service File for Linux
+
 
 ### Quick Start with Docker
 
