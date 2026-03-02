@@ -26,6 +26,30 @@ See our documentation at [kevinanielsen.github.io/go-fast-cdn/](https://kevinani
 
 Join the [discord](https://discord.gg/z9uqNtU6yS) to talk to fellow users and contributors!
 
+## Building the Binary from Source File
+
+1. Run `make prep` # Install Dependencies
+2. Run `make clean` # Clean the Output Files (don't use if First Time Building)
+3. Run `make test` # Ensure Code Quality, Verify Correct Functionality, Check Dependencies and Check Bugs in Code.  
+4. Run `make build` # Build the Binary for Current Architecture 
+
+**Build for Other Architectures:**<br>
+Linux:`make build-linux`<br>
+MacOS: `make build-darwin`<br>
+Windows: `make build-windows`
+
+This will Cross-Compile to Windows, Darwin, and Linux Binaries, so make sure that you have the **MAKE** Package Installed which Installs the Compilers on your Machine if you run `make build`.<br>
+<br>
+If you don’t have the **MAKE** Compiler Installed you can use **GOLANG-GO**:<br>
+<br>
+Debian: `apt update && apt install golang-go -y`<br>
+CentOS/Rocky: `dnf update && dnf install golang -y`<br>
+Alpine: `apk update && apk add golang-go`<br>
+
+Then Run:<br>
+`go build .`
+
+
 ## Development - Create Bare Metal, VM or LXC
 
 ### Clone the Repository
@@ -53,13 +77,6 @@ Once you’ve cloned the repo, you need to set up the Environment Variables.
 Copy the .env.example file to a new .env file: `cp .env.example .env`
 
 If you do not wish to use this, you can just rename `.example.env` to `.env` and fill in the fields.
-
-### Building the Binary
-
-1. Run `make prep`
-2. Run `make clean`
-3. Run `make test`
-4. Run `make build`
 
 ### Make Executable for Linux and MacOs<br>
 
@@ -102,10 +119,12 @@ WantedBy=multi-user.target
 ### Enable and Start Service:<br>
 Enable Service: `systemctl enable go-fast-cdn`<br>
 Start Service: `systemctl start go-fast-cdn`<br>
+### Enable Stop Service:<br>
 Stop Service: `systemctl stop go-fast-cdn`<br>
+### Check Service Service:<br>
 Check Service Status: `systemctl status go-fast-cdn`<br>
 
-### Quick Start with Docker
+## Quick Start with Docker
 
 `git clone git@github.com:kevinanielsen/go-fast-cdn`
 or `git clone https://github.com/kevinanielsen/go-fast-cdn`
@@ -114,7 +133,7 @@ or `git clone https://github.com/kevinanielsen/go-fast-cdn`
 docker-compose up -d
 ```
 
-### Subdomain Separation (Optional)
+## Subdomain Separation (Optional)
 
 For production deployments, you can separate admin UI from public CDN serving using subdomains.
 
