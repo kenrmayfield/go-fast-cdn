@@ -46,9 +46,11 @@ Debian: `apt update && apt install golang-go -y`<br>
 CentOS/Rocky: `dnf update && dnf install golang -y`<br>
 Alpine: `apk update && apk add golang-go`<br>
 
+Verify GO Version:<br>
+`go version`
+
 Then Run:<br>
 `go build .`
-
 
 ## Development - Create Bare Metal, VM or LXC
 
