@@ -26,7 +26,7 @@ See our documentation at [kevinanielsen.github.io/go-fast-cdn/](https://kevinani
 
 Join the [discord](https://discord.gg/z9uqNtU6yS) to talk to fellow users and contributors!
 
-## Development
+## Development - Create Bare Metal, VM or LXC
 
 ### Clone the Repository
 
