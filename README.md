@@ -102,6 +102,7 @@ WantedBy=multi-user.target
 ### Enable and Start Service:<br>
 Enable Service: `systemctl enable go-fast-cdn`<br>
 Start Service: `systemctl start go-fast-cdn`<br>
+Stop Service: `systemctl stop go-fast-cdn`<br>
 Check Service Status: `systemctl status go-fast-cdn`<br>
 
 ### Quick Start with Docker
