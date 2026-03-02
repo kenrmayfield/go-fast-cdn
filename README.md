@@ -111,8 +111,8 @@ After=network.target
 ExecStart=/<PATH>/<BINARY DIRECOTORY>/go-fast-cdn-linux
 WorkingDirectory=/<PATH>/<BINARY DIRECOTORY>
 Restart=always
-User=your-user
-Group=your-group
+User=root
+Group=root
 
 [Install]
 WantedBy=multi-user.target
