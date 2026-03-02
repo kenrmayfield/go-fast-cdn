@@ -38,7 +38,7 @@ Linux:`make build-linux`<br>
 MacOS: `make build-darwin`<br>
 Windows: `make build-windows`
 
-This will Cross-Compile to Windows, Darwin, and Linux Binaries, so make sure that you have the **MAKE** Package Installed which Installs the Compilers on your Machine if you run `make build`.<br>
+This will Cross-Compile to Windows, MacOS(Darwin), and Linux Binaries, so make sure that you have the **MAKE** Package Installed which Installs the Compilers on your Machine if you run `make build`.<br>
 <br>
 If you don’t have the **MAKE** Compiler Installed you can use **GOLANG-GO**:<br>
 <br>
